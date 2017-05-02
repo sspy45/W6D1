@@ -1,0 +1,35 @@
+.tower {
+  display: inline-block;
+  width: 200px;
+  height: 265px;
+  text-align: center;
+  /*border: 1px solid red;*/
+  margin: 0;
+  padding: 0;
+
+}
+
+.disk {
+  display: block;
+  background-color: seagreen;
+  width: 5%;
+  margin: 0 auto;
+  height: 33.333%;
+}
+
+.disk.small {
+  background-color: red;
+  width: 30%;
+}
+.disk.medium {
+  background-color: yellow;
+  width: 50%;
+}
+.disk.large {
+  background-color: blue;
+  width: 70%;
+}
+
+.selected{
+  background-color: seashell;
+}
